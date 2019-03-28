@@ -7,6 +7,7 @@ router.get('/', function(req, res, next) {
 });
 router.post('/movie', function(req, res, next) {
 	console.log(JSON.stringify(req.body));
+	console.log(JSON.stringify(req.body));
 	res.json(req.body);
 });
 

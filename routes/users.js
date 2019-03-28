@@ -6,7 +6,7 @@ router.get('/', function(req, res, next) {
   res.send('respond with a resource');
 });
 router.post('/movie', function(req, res, next) {
-	conosle.log(JSON.stringify(req.body));
+	console.log(JSON.stringify(req.body));
 	res.json(req.body);
 });
 
